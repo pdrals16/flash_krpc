@@ -6,6 +6,8 @@ A Python-based PID control system for automated rocket flight in Kerbal Space Pr
 
 This system provides automated altitude control for rockets in KSP through a PID controller that adjusts throttle to maintain a target altitude. The application collects telemetry data, processes it through the PID algorithm, and sends throttle commands back to the rocket.
 
+![Rocket Control Demo](gif/launch.gif)
+
 ## Prerequisites
 
 - [Kerbal Space Program](https://store.steampowered.com/app/220200/Kerbal_Space_Program/)
@@ -75,3 +77,4 @@ Adjust these files to fine-tune the control system's behavior.
 - If you encounter connection issues, ensure the kRPC server is running in KSP
 - Check `debug.log` for detailed application logs
 - Verify your rocket has engines and fuel before starting the control system
+ 
